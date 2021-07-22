@@ -1,0 +1,52 @@
+div{
+    background-color: mediumturquoise;
+    font-size: 50px;
+    border: mediumspringgreen;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutme1{
+    background-color:aquamarine;
+    font-size: 30px;
+    border:solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutme,h1{
+    border:solid;
+    padding: 50px;
+}
+
+.welcome,a:link{
+    color:palevioletred;
+}
+
+.welcome,a:visited{
+    color: darkcyan;
+}
+
+.main {
+    position:relative
+}
+.main p{
+    position:absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    opacity:0
+} 
+.main:hover p{
+    opacity:1;
+}
+
+.main:hover img{
+    opacity:0.33;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} 
